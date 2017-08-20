@@ -1,0 +1,12 @@
+spring:
+  rabbitmq:
+    addresses: localhost:5672
+    username: test
+    password: root
+
+logging:
+  level:
+    org: ERROR
+
+server:
+  port: 8081
